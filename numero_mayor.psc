@@ -1,8 +1,9 @@
 Funcion mayor <- comparar ( a, b )
-	Si num_a >= num_b
-		mayor= a
+	Si a >= b
+		mayor = a
+	SiNo
+		mayor = b	
 	FinSi
-	mayor = b
 Fin Funcion
 
 Algoritmo numero_primo

@@ -1,10 +1,10 @@
 Algoritmo adivinar_numero
-	Escribir "Ingrese un numero del 1 al 15"
-	Leer num
-	num_azar = 1 + azar(15)
-	Mientras num_azar != num Hacer
-		Escribir "Ingrese un nuevo numero del 1 al 15"
+	Repetir
+		Escribir "inserta numero longi"
 		Leer num
-	Fin Mientras
-	Escribir "Adivinaste,era el numero: ", num
+		Si num > 15 y num >0 Entonces
+			Escribir "Wn penca"
+		Fin Si
+	Hasta Que num>=0 y num<=15
+	Escribir "Eres un wn bkn!"
 FinAlgoritmo
